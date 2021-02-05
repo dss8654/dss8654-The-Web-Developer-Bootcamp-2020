@@ -25,16 +25,16 @@
         </p>
         <p>
             <label for="number">Enter a number:</label>
-            <input type="number" placeholder="enter a number" name="num">
+            <input type="number" placeholder="enter a number" name="num" min="1" max="">
         </p>
         <!-- button default type="submit" -->
         <button>Submit</button>
         <button type="button">this wont submit</button>
     </form>
-
-    <br>printing an hr
+    <br>
+    <!-- printing an hr line -->
     <hr>
-
+    <!-- forms that send to other sites -->
     <h2>Hijacking Searches</h2>
     <h3>Search Reddit</h3>
     <form action="https://www.reddit.com/search">
@@ -57,6 +57,7 @@
         <!-- checked means the box starts checked -->
         <input type="checkbox" name="agree_tos" id="agree" checked>
         <label for="agree">I agree to everything</label>
+        <!-- radio buttons -->
         <p>
             <label for="xs">XS:</label>
             <input type="radio" name="size" id="" value="xs">
@@ -65,6 +66,7 @@
             <label for="m">M:</label>
             <input type="radio" name="size" id="" value="m">
         </p>
+        <!-- select from list of options -->
         <p>
             <label for="meal">Please Select an Entree</label>
             <select name="meal" id="meal">
@@ -72,6 +74,17 @@
                 <option value="veg" selected>Vegetarian</option>
                 <option value="steak">Steak</option>
             </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese</label>
+            <input type="range" name="cheese_level" id="cheese" min="1" max="100" value="75">
+            <!-- the 'step' attribute chooses how high it increments on the slider, 'value' chooses starting value-->
+        </p>
+        <!-- textarea creation -->
+        <p>
+            <label for="requests">Any Special Requests?</label>
+            <br>
+            <textarea id="requests" rows="10" name="Requests" cols="40" placeholder="Type something here"></textarea>
         </p>
         <button>Submit</button>
     </form>
