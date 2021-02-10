@@ -1,6 +1,6 @@
 h2 {
-    color: teal;
-    background-color: plum;
+    color: #5FCFFC;
+    background-color: rgb(89, 151, 0);
 }
 
 button {
@@ -10,4 +10,9 @@ button {
 
 p {
     color: olive;
+}
+
+body {
+    /* same as CC55EE */
+    background-color: #C5E;
 }
