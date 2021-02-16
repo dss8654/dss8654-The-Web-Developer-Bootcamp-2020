@@ -1,0 +1,21 @@
+/* * {
+    background-color: cyan;
+} */
+body {
+    background-color: #f1faee;
+}
+/* element selectors extremely common*/
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+/* u can use commas to combine selector css*/
+h1, h2 {
+    color: #1d355;
+}
+
+/* ids in html should only be used once! */
+#signup {
+    background-color: #1d3557;
+    color: #f1faee;
+}
