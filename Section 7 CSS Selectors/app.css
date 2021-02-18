@@ -15,7 +15,27 @@ h1, h2 {
 }
 
 /* ids in html should only be used once! */
+/* # symbol is used for ids */
 #signup {
     background-color: #1d3557;
     color: #f1faee;
+}
+
+span {
+    color: #457b9d;
+}
+
+/* . symbol is used for classes*/
+.tag {
+    background-color: #e63946;
+    color: #f1faee;
+    font-size: 16px;
+}
+
+.post a {
+    color: #457b9d;
+}
+
+footer a {
+    color: #e63946;
 }
