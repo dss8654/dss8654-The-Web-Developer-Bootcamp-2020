@@ -80,3 +80,9 @@ input[type="password"] {
 .post button:active {
     background-color: #02c39a;
 }
+
+/* make every other object of class 'post' a new color */
+.post:nth-of-type(2n){
+    background-color: #dfe8dc;
+
+}
