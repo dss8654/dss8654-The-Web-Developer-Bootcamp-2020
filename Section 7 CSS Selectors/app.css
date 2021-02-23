@@ -104,3 +104,9 @@ p::first-line {
 p::selection {
     background-color: aqua;
 }
+
+/* dont use inline styles or !important
+unless absolutely necessary */
+button {
+    background-color: magenta !important;
+}
