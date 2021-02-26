@@ -1,3 +1,8 @@
+/* lots of devs do this at the start of a project */
+body {
+    margin: 0;
+}
+
 div {
     width: 200px;
     height: 250px;
@@ -7,6 +12,9 @@ div {
 h1 {
     background-color: pink;
     width: 110px;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-bottom: 0;
 }
 
 #one {
@@ -17,6 +25,8 @@ h1 {
     border-style: solid;
     /* with box-sizing, the width of the border will match the div width, in other words the div including the border will be 200px total. */
     box-sizing: border-box;
+    margin-left: 50px;
+    margin-bottom: 100px;
 }
 
 #two {
@@ -25,6 +35,8 @@ h1 {
     border-width: 3px;
     border-style: dashed;
     border-left-width: 8px;
+    padding-right: 50px;
+    margin: 200px;
 }
 
 #three {
@@ -35,4 +47,16 @@ h1 {
     border-left: dotted;
     /* rounded corners with border radius */
     border-radius: 50%;
+}
+
+button {
+    /* padding to all 4 sides */
+    /* padding: 20px; */
+
+    /* vertical / horizontal */
+    /* padding: 10px 20px; */
+
+    /* top right bottom left */
+    /* think clockwise */
+    padding: 10px 20px 30px 40px;
 }
