@@ -1,17 +1,66 @@
-section{
+html {
+    font-size: 10px;
+}
+#ems section{
     background-color: #6d6875;
     width: 800px;
     height: 800px;
 }
 
-div{
+#ems div{
     background-color: #e5989b;
     width: 50%;
     height: 50%;
 }
 
-h1 {
+#ems h1 {
     font-size: 40px;
     border: 1px solid black;
     line-height: 200px;
+}
+
+/* em is relative unit. for font size, 1 em equals the font size of the parent. */
+/* for other properties, 1 em is equal to the computed font size of the element itself */
+#ems h2 {
+    font-size: 2em;
+}
+
+#ems p {
+    font-size: 0.8em;
+}
+
+#ems {
+    font-size: 50px;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: #2a9d8f;
+    color: white;
+}
+
+ul {
+    /* nested uls get progressively smaller or bigger using ems, because ems are based on the immediate parent element */
+    /* font-size: 1.5em; */
+}
+
+/* thats where rem comes in! relative to the ROOT HTML ELEMENT'S FONT SIZE */
+/* rem stands for root em */
+/* root element is '<html lang="en"> */
+#rems h2{
+    font-size: 3rem;
+}
+
+#rems h3 {
+    font-size: 2rem;
+}
+
+#rems ul {
+    font-size: 0.8rem;
+}
+
+#rems button {
+    font-size: 1.5rem;
 }
