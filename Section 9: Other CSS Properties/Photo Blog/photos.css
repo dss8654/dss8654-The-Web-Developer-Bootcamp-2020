@@ -1,0 +1,19 @@
+img {
+    width: 30%;
+    /* 3 images at 30% leaves 10% of page blank */
+    /* left + right margin * 3 = 6 */
+    margin: calc(10%/6);
+    /* use this instead of */
+    /* margin: 1.66666%; */
+}
+
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+    font-family: Raleway, sans-serif;
+    font-size: 1.5em;
+
+}
