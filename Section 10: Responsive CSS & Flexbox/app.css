@@ -16,9 +16,8 @@ h1 {
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
-    align-items: flex-end;
-    flex-wrap: wrap-reverse;
-    /* flex-wrap: wrap; */
+    align-items: flex;
+    flex-wrap: wrap;
 }
 
 #container div {
