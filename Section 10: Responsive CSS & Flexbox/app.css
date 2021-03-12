@@ -14,11 +14,15 @@ h1 {
     /* turning on flexbox properties */
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap; */
 }
 
 #container div {
     width: 200px;
     height: 200px;
+    font-size: 4em;
 }
