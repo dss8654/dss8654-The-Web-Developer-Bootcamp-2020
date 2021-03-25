@@ -144,3 +144,18 @@ body {
 .pricing-button.is-featured:hover, .pricing-button.pricing-button.is-featured:focus{
 	background-color: #269aff;
 }
+
+/* making the desktop layout */
+@media (min-width: 900px) {
+	.panel {
+		flex-direction: row;
+	}
+	.pricing-plan {
+		border-bottom: none;
+		border-right: 0.5px solid #e1f1ff;
+		padding: 25px 50px;
+	}
+	.pricing-plan:last-child {
+		border-right: none;
+	}
+} 
