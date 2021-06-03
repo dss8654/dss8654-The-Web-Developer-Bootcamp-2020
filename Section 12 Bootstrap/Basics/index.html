@@ -34,8 +34,14 @@
         </div>
         <h3>Alerts</h3>
         <!-- Alerts -->
-        <div class="alert alert-danger">
+        <div class="alert alert-danger alert-dismissable fade show">
+            <h4 class="alert-heading">Oh no!</h4>
             Danger! You are about to end the world as we know it!
+            <button aria-label="Close" class="close" data-dismiss="alert">
+                <!-- aria hidden hides the span from screen readers -->
+                <!-- aria has to do with accesibility and the screen reader -->
+                <span aria-hidden="true">&times;</span>
+            </button>
         </div>
         <!-- class lead -->
         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eaque, in autem cupiditate quasi
