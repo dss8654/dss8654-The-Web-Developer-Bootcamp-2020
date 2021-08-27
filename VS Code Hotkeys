@@ -1,5 +1,9 @@
-ctrl P: opens fuzzy file finder
-ctrl shift P: open command palette
-ctrl shift T: create terminal in new editor tab
+Create terminal in new editor tab: ctrl + shift + 'T'
 
-ctrl + (number): go to the tab number (number)
+Go to the tab number (number): ctrl + (number)
+
+Open Command Palette: ctrl + shift + 'P'
+
+Open Fuzzy File Finder: ctrl + 'P'
+
+Toggle line comment: ctrl + '/'
